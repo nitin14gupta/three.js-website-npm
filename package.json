@@ -1,0 +1,50 @@
+{
+  "name": "threejs-magic",
+  "version": "0.0.1",
+  "description": "This is a npm package of reuseable threeJs component library",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin14gupta/three.js-website-npm.git"
+  },
+  "author": "nitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitin14gupta/three.js-website-npm/issues"
+  },
+  "homepage": "https://github.com/nitin14gupta/three.js-website-npm#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@types/three": "^0.174.0",
+    "rollup": "^4.36.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@react-three/drei": "^9.121.5",
+    "@react-three/fiber": "^8.17.14",
+    "@react-three/postprocessing": "^2.19.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "gsap": "^3.12.7",
+    "lucide-react": "^0.475.0",
+    "next": "15.1.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.162.0"
+  }
+}

@@ -1,0 +1,13 @@
+import { Scene3D, Model3D } from 'threejs-magic';
+
+function App() {
+  return (
+    <Scene3D>
+      <Model3D 
+        url="/path/to/model.gltf"
+        animate
+        rotationSpeed={{ x: 0, y: 0.01, z: 0 }}
+      />
+    </Scene3D>
+  );
+}
